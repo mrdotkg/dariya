@@ -320,7 +320,8 @@ $(document).ready(function() {
                             $('#preview-loader').removeClass('show');
                             $(window).trigger('resize');
                             var a=document.getElementsByClassName('pdf flex-active-slide');
-                            a[0].innerHTML='<iframe src="'+elem.find('.project-media').data('granth')+'" height = "100%" frameborder="no" width = "100%"></iframe>';
+//                            a[0].innerHTML='<iframe src="'+elem.find('.project-media').data('granth')+'" height = "100%" frameborder="no" width = "100%"></iframe>';
+                            a[0].innerHTML=' <iframe src="http://docs.google.com/gview?url=http://work.eulogik.com/viveksagar.pdf&embedded=true" style="width:790px; height:500px;" frameborder="0">Loading...</iframe>';
                         },1000)
                     }
                 });
