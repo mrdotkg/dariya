@@ -320,7 +320,7 @@ $(document).ready(function() {
                             $('#preview-loader').removeClass('show');
                             $(window).trigger('resize');
                             var a=document.getElementsByClassName('pdf flex-active-slide');
-                            a[0].innerHTML='<iframe src="'+elem.find('.project-media').data('pdf')+'" height = "100%" frameborder="no" width = "100%"></iframe>';
+                            a[0].innerHTML='<iframe src="'+elem.find('.project-media').data('granth')+'" height = "100%" frameborder="no" width = "100%"></iframe>';
                         },1000)
                     }
                 });
